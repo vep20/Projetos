@@ -5,82 +5,162 @@
   <visualElements>
     <visualElement>
       <elementName>Register</elementName>
-      <elementAttributes/>
+      <elementAttributes>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
+        </entry>
+      </elementAttributes>
       <pos x="480" y="20"/>
     </visualElement>
     <visualElement>
       <elementName>Register</elementName>
-      <elementAttributes/>
+      <elementAttributes>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
+        </entry>
+      </elementAttributes>
       <pos x="480" y="180"/>
     </visualElement>
     <visualElement>
       <elementName>Register</elementName>
-      <elementAttributes/>
+      <elementAttributes>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
+        </entry>
+      </elementAttributes>
       <pos x="480" y="320"/>
     </visualElement>
     <visualElement>
       <elementName>Register</elementName>
-      <elementAttributes/>
+      <elementAttributes>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
+        </entry>
+      </elementAttributes>
       <pos x="480" y="460"/>
     </visualElement>
     <visualElement>
       <elementName>Register</elementName>
-      <elementAttributes/>
+      <elementAttributes>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
+        </entry>
+      </elementAttributes>
       <pos x="640" y="20"/>
     </visualElement>
     <visualElement>
       <elementName>Register</elementName>
-      <elementAttributes/>
+      <elementAttributes>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
+        </entry>
+      </elementAttributes>
       <pos x="640" y="180"/>
     </visualElement>
     <visualElement>
       <elementName>Register</elementName>
-      <elementAttributes/>
+      <elementAttributes>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
+        </entry>
+      </elementAttributes>
       <pos x="640" y="320"/>
     </visualElement>
     <visualElement>
       <elementName>Register</elementName>
-      <elementAttributes/>
+      <elementAttributes>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
+        </entry>
+      </elementAttributes>
       <pos x="640" y="460"/>
     </visualElement>
     <visualElement>
       <elementName>Register</elementName>
-      <elementAttributes/>
+      <elementAttributes>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
+        </entry>
+      </elementAttributes>
       <pos x="120" y="20"/>
     </visualElement>
     <visualElement>
       <elementName>Register</elementName>
-      <elementAttributes/>
+      <elementAttributes>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
+        </entry>
+      </elementAttributes>
       <pos x="120" y="180"/>
     </visualElement>
     <visualElement>
       <elementName>Register</elementName>
-      <elementAttributes/>
+      <elementAttributes>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
+        </entry>
+      </elementAttributes>
       <pos x="120" y="320"/>
     </visualElement>
     <visualElement>
       <elementName>Register</elementName>
-      <elementAttributes/>
+      <elementAttributes>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
+        </entry>
+      </elementAttributes>
       <pos x="120" y="460"/>
     </visualElement>
     <visualElement>
       <elementName>Register</elementName>
-      <elementAttributes/>
+      <elementAttributes>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
+        </entry>
+      </elementAttributes>
       <pos x="300" y="20"/>
     </visualElement>
     <visualElement>
       <elementName>Register</elementName>
-      <elementAttributes/>
+      <elementAttributes>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
+        </entry>
+      </elementAttributes>
       <pos x="300" y="180"/>
     </visualElement>
     <visualElement>
       <elementName>Register</elementName>
-      <elementAttributes/>
+      <elementAttributes>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
+        </entry>
+      </elementAttributes>
       <pos x="300" y="320"/>
     </visualElement>
     <visualElement>
       <elementName>Register</elementName>
-      <elementAttributes/>
+      <elementAttributes>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
+        </entry>
+      </elementAttributes>
       <pos x="300" y="460"/>
     </visualElement>
     <visualElement>
@@ -88,7 +168,7 @@
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>CLOCK</string>
+          <string>clk</string>
         </entry>
       </elementAttributes>
       <pos x="940" y="800"/>
@@ -332,7 +412,7 @@
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>saida_A</string>
+          <string>s.a</string>
         </entry>
         <entry>
           <string>Bits</string>
@@ -346,7 +426,7 @@
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>saida_B</string>
+          <string>s.b</string>
         </entry>
         <entry>
           <string>Bits</string>

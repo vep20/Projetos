@@ -27,6 +27,10 @@
       <elementName>ROM</elementName>
       <elementAttributes>
         <entry>
+          <string>Label</string>
+          <string>MI</string>
+        </entry>
+        <entry>
           <string>Bits</string>
           <int>32</int>
         </entry>
@@ -35,7 +39,12 @@
     </visualElement>
     <visualElement>
       <elementName>Add</elementName>
-      <elementAttributes/>
+      <elementAttributes>
+        <entry>
+          <string>Bits</string>
+          <int>16</int>
+        </entry>
+      </elementAttributes>
       <pos x="80" y="300"/>
     </visualElement>
     <visualElement>
@@ -54,7 +63,16 @@
     </visualElement>
     <visualElement>
       <elementName>Register</elementName>
-      <elementAttributes/>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>IP</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>16</int>
+        </entry>
+      </elementAttributes>
       <pos x="340" y="340"/>
     </visualElement>
     <visualElement>
@@ -118,6 +136,16 @@
         </entry>
       </elementAttributes>
       <pos x="940" y="480"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Const</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Value</string>
+          <long>0</long>
+        </entry>
+      </elementAttributes>
+      <pos x="80" y="340"/>
     </visualElement>
   </visualElements>
   <wires>
