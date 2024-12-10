@@ -1,0 +1,153 @@
+This file was created because there was an unexpected exception in Digital.
+Please send this file to digital-simulator@web.de or create an issue at
+GitHub: https://github.com/hneemann/Digital/issues
+
+Manifest: 
+Digital.jar:
+Build-Time=2023-02-03 10:55
+Build-SCM-Revision=v0.30
+Manifest-Version=1.0
+Created-By=Maven Archiver 3.5.0
+Build-Jdk-Spec=11
+Class-Path=xstream-1.4.20.jar mxparser-1.2.2.jar xmlpull-1.1.3.1.jar sl
+SplashScreen-Image=icons/splash.png
+Main-Class=de.neemann.digital.gui.Main
+
+System properties:
+java.runtime.name=OpenJDK Runtime Environment
+java.vm.version=11.0.23+9-post-Ubuntu-1ubuntu122.04.1
+java.vm.vendor=Ubuntu
+java.vendor.url=https://ubuntu.com/
+java.vm.name=OpenJDK 64-Bit Server VM
+java.vm.specification.name=Java Virtual Machine Specification
+java.vm.compressedOopsMode=32-bit
+java.runtime.version=11.0.23+9-post-Ubuntu-1ubuntu122.04.1
+java.awt.graphicsenv=sun.awt.X11GraphicsEnvironment
+java.io.tmpdir=/tmp
+java.vm.specification.vendor=Oracle Corporation
+java.library.path=/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+java.class.version=55.0
+java.specification.name=Java Platform API Specification
+java.awt.printerjob=sun.print.PSPrinterJob
+java.specification.version=11
+java.class.path=/home/victorr/Documentos/Projetos/Digital/Digital.jar
+java.vm.specification.version=11
+java.home=/usr/lib/jvm/java-11-openjdk-amd64
+java.specification.vendor=Oracle Corporation
+java.vm.info=mixed mode, sharing
+java.version=11.0.23
+java.vendor=Ubuntu
+java.specification.maintenance.version=2
+java.version.date=2024-04-16
+java.vendor.url.bug=https://bugs.launchpad.net/ubuntu/+source/openjdk-lts
+
+os.arch=amd64
+os.name=Linux
+os.version=5.15.0-116-generic
+
+thread: AWT-EventQueue-0
+
+exception: 
+java.lang.RuntimeException: internal error in undo
+	at de.neemann.digital.gui.components.CircuitComponent.undo(CircuitComponent.java:554)
+	at de.neemann.digital.gui.components.CircuitComponent.access$100(CircuitComponent.java:58)
+	at de.neemann.digital.gui.components.CircuitComponent$3.actionPerformed(CircuitComponent.java:190)
+	at java.desktop/javax.swing.SwingUtilities.notifyAction(SwingUtilities.java:1810)
+	at java.desktop/javax.swing.JComponent.processKeyBinding(JComponent.java:2900)
+	at java.desktop/javax.swing.JComponent.processKeyBindings(JComponent.java:2948)
+	at java.desktop/javax.swing.JComponent.processKeyEvent(JComponent.java:2862)
+	at java.desktop/java.awt.Component.processEvent(Component.java:6412)
+	at java.desktop/java.awt.Container.processEvent(Container.java:2263)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:5011)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2321)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4843)
+	at java.desktop/java.awt.KeyboardFocusManager.redispatchEvent(KeyboardFocusManager.java:1950)
+	at java.desktop/java.awt.DefaultKeyboardFocusManager.dispatchKeyEvent(DefaultKeyboardFocusManager.java:870)
+	at java.desktop/java.awt.DefaultKeyboardFocusManager.preDispatchKeyEvent(DefaultKeyboardFocusManager.java:1139)
+	at java.desktop/java.awt.DefaultKeyboardFocusManager.typeAheadAssertions(DefaultKeyboardFocusManager.java:1009)
+	at java.desktop/java.awt.DefaultKeyboardFocusManager.dispatchEvent(DefaultKeyboardFocusManager.java:835)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:4892)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2321)
+	at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2772)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4843)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:772)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:715)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:95)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:745)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:743)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:742)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+Caused by: de.neemann.digital.undo.ModifyException: Exception during event processing
+ Componente 'Banco_de_registradores' movido ou rotacionado.
+ Componente 'ROM' inserido.
+ Atributos do componente 'ROM' modificado.
+ Atributos do componente 'ROM' modificado.
+ Componente 'ROM' movido ou rotacionado.
+ Atributos do componente 'ROM' modificado.
+ Atributos do componente 'ROM' modificado.
+ Atributos do componente 'ROM' modificado.
+ Componente 'ROM' movido ou rotacionado.
+ Fio inserido.
+ Fio inserido.
+ Componente 'Entrada' inserido.
+ Componente 'Entrada' movido ou rotacionado.
+ Seleção removida.
+ Atributos do componente 'Entrada' modificado.
+ Componente 'Entrada do Clock' inserido.
+ Seleção movida.
+ Seleção removida.
+ Componente 'PC' inserido.
+ Atributos do componente 'PC' modificado.
+ Atributos do componente 'PC' modificado.
+ Atributos do componente 'PC' modificado.
+ Atributos do componente 'PC' modificado.
+ Atributos do componente 'PC' modificado.
+ Componente 'PC' movido ou rotacionado.
+ Valor 'Formato' no componente 'PC' modificado.
+ Atributos do componente 'PC' modificado.
+ Atributos do componente 'PC' modificado.
+ Seleção movida.
+ -> exception in the following modification!
+ Atributos do componente 'PC' modificado.
+ Seleção movida.
+ Seleção movida.
+ Fio inserido.
+ Fio inserido.
+ Fio inserido.
+ Componente 'Valor constante' inserido.
+ Fio inserido.
+ Fio inserido.
+ Seleção removida.
+ Fio inserido.
+ Seleção movida.
+ Fio inserido.
+ Fio inserido.
+ Atributos do componente 'ROM' modificado.
+ Atributos do componente 'ROM (Memoria de instruções)' modificado.
+ Fio inserido.
+ Fio inserido.
+ Seleção removida.
+ Fio inserido.
+ Componente 'Distribuidor' inserido.
+ Seleção movida.
+>
+	at de.neemann.digital.undo.UndoManager.createTrace(UndoManager.java:140)
+	at de.neemann.digital.undo.UndoManager.undo(UndoManager.java:121)
+	at de.neemann.digital.gui.components.CircuitComponent.undo(CircuitComponent.java:552)
+	... 37 more
+Caused by: de.neemann.digital.undo.ModifyException: internal error: Element not found!
+	at de.neemann.digital.gui.components.modification.ModificationOfVisualElement.getVisualElement(ModificationOfVisualElement.java:74)
+	at de.neemann.digital.gui.components.modification.ModifyAttributes.modify(ModifyAttributes.java:34)
+	at de.neemann.digital.gui.components.modification.ModifyAttributes.modify(ModifyAttributes.java:17)
+	at de.neemann.digital.undo.UndoManager.undo(UndoManager.java:114)
+	... 38 more

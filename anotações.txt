@@ -1,0 +1,19 @@
+
+vamos por partes, responda somente sobre o que eu perguntar, lembrando que estamos no projeto
+de criação do circuito monociclo atraves do software "digital"
+
+Utilização do compilador egg para criar um arquivo binario com o codigo teste fornecido
+Instrução: dump 0x00000000 0x00000074 codigo.bin. Visto que:
+    Endereço inicial: 0x00000000 (o endereço mais baixo onde o código começa).
+    Tamanho: A última instrução está em 0x00000070. Como cada instrução 
+    ocupa 4 bytes, o tamanho total será a diferença entre o último 
+    endereço e o primeiro mais o tamanho da última instrução.
+utilizado algoritmo de conversão de bin para hex, conforme fornecido;
+
+Definição: O PC é um registrador que armazena o endereço 
+da próxima instrução a ser executada. Em um microprocessador 
+monociclo, o PC é incrementado em cada ciclo de clock para apontar 
+para a próxima instrução.
+PC é formado por um registrador, um somador e um multiplexador.
+    Entrada do somador: endereço a, o valor da instrução atual e em b, uma constante com 32 bits
+    de dados e valor 4, pois no processador cada instrução deve ocorrer a cada 4 bytes
